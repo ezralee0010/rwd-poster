@@ -26,7 +26,7 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
-  
+
   animation-name: DotChange1;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -39,7 +39,7 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
-  
+
   animation-name: DotChange2;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -52,7 +52,7 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
-  
+
   animation-name: DotChange3;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -65,7 +65,7 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
-  
+
   animation-name: DotChange4;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -78,7 +78,7 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
-  
+
   animation-name: DotChange5;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -91,7 +91,7 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
-  
+
   animation-name: DotChange6;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -104,7 +104,7 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
-  
+
   animation-name: DotChange7;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -116,10 +116,7 @@ body {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-gap: 30px;
-  max-height: 600px;
-  height: 100%;
 }
-
 
 @media (max-width: 680px) {
   .gallery {
@@ -131,56 +128,43 @@ body {
 @media (max-width: 660px) {
   .gallery {
     grid-template-columns: repeat(8, 1fr);
-    max-height: 700px;
-    height: 100%;
   }
 }
 
 @media (max-width: 640px) {
   .gallery {
     grid-template-columns: repeat(7, 1fr);
-    max-height: 800px;
-    height: 100%;
+
   }
 }
 
 @media (max-width: 620px) {
   .gallery {
     grid-template-columns: repeat(6, 1fr);
-    max-height: 900px;
-    height: 100%;
   }
 }
 
 @media (max-width: 600px) {
   .gallery {
     grid-template-columns: repeat(5, 1fr);
-    max-height: 1000px;
-    height: 100%;
   }
 }
 
 @media (max-width: 580px) {
   .gallery {
     grid-template-columns: repeat(4, 1fr);
-    max-height: 1100px;
-    height: 100%;
   }
 }
 
 @media (max-width: 560px) {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
-    max-height: 1200px;
-    height: 100%;
   }
 }
 
 @media (max-width: 540px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
-    max-height: 1300px;
-    height: 100%;
   }
 }
 
@@ -188,7 +172,5 @@ body {
 @media (max-width: 520px) {
   .gallery {
     grid-template-columns: repeat(1, 1fr);
-    max-height: 14000px;
-    height: 100%;
   }
 }
