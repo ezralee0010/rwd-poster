@@ -26,6 +26,11 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
+  
+  animation-name: DotChange1;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .dot2 {
@@ -34,6 +39,11 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
+  
+  animation-name: DotChange2;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .dot3 {
@@ -42,6 +52,11 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
+  
+  animation-name: DotChange3;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .dot4 {
@@ -50,6 +65,11 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
+  
+  animation-name: DotChange4;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .dot5 {
@@ -58,6 +78,11 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
+  
+  animation-name: DotChange5;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .dot6 {
@@ -66,14 +91,24 @@ body {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
+  
+  animation-name: DotChange6;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .dot7 {
-  height: 3px;
-  width: 3px;
+  height: 0px;
+  width: 0px;
   background-color: white;
   border-radius: 50%;
   display: inline-block;
+  
+  animation-name: DotChange7;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 
