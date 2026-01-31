@@ -13,13 +13,27 @@ body {
 
 .headers {
   font-size: 30px;
+  font-family: sans-serif;
+}
+
+.paragraph {
+  font-family: sans-serif;
 }
 
 .copyright {
   font-size: 10px;
+  font-family: sans-serif;
 }
 
 /* https://www.w3schools.com/HOWTO/howto_css_circles.asp */
+.genericdot {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .dot1 {
   height: 20px;
   width: 20px;
